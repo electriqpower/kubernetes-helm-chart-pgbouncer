@@ -6,11 +6,7 @@
 [databases]
 {{- range $k, $v := .Values.databases }}
 
-{{- if $root.Values.global.namespacedDatabases }}
-{{ $k }} = host={{ $v.host }} port={{ $v.port }} user={{ $v.user }} dbname={{ $root.Release.Namespace | replace "-" "_"}}_{{ $v.dbname }}
-{{- else }}
 {{ $k }} = host={{ $v.host }} port={{ $v.port }} user={{ $v.user }} dbname={{ $v.dbname }}
-{{- end }}
 
 {{- end }}
 

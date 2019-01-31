@@ -1,11 +1,11 @@
 apiVersion: v1
 entries:
   pgbouncer:
-  - created: 2019-01-30T23:23:43.824745152-08:00
+  - created: 2019-01-30T23:30:30.978773079-08:00
     description: PgBouncer chart
-    digest: dee3dc3c4fbd8db17a2e166de72a3cd94894aa909b7d6f87d6b1dd9f4a29f80f
+    digest: b7a03869c2dac6cff7849aaa47d09ab5772c05f1f57d1cbe1d402a8eaf35d951
     name: pgbouncer
     urls:
-    - pgbouncer-1.0.0.tgz
-    version: 1.0.0
-generated: 2019-01-30T23:23:43.82421021-08:00
+    - pgbouncer-1.0.1.tgz
+    version: 1.0.1
+generated: 2019-01-30T23:30:30.978189684-08:00
